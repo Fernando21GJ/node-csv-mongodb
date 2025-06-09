@@ -1,0 +1,13 @@
+{
+  "name": "node-csv-mongodb",
+  "version": "1.0.0",
+  "description": "Procesa un archivo CSV y lo guarda en MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js archivo.csv"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "mongodb": "^5.6.0"
+  }
+}
